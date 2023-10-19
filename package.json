@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "typedoc-plugin-merge-js-dts",
+  "scripts": {
+    "dev": "cd test && typedoc && serve docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "typedoc": "^0.25.2",
+    "typescript": "^5.2.2"
+  }
+}

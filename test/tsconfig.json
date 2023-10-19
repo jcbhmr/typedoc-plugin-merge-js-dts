@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true
+    },
+    "exclude": ["docs"],
+    "typedocOptions": {
+      "entryPointStrategy": "expand",
+      "entryPoints": ["."],
+      "readme": "none",
+      "exclude": ["docs/**"],
+      "plugin": ["../index.js"]
+    }
+  }
